@@ -92,6 +92,12 @@ Power Automateを使った業務改善のスキルを身につけられるハン
 
 
 
+## ⭐ サポート
+このリポジトリが役立ったら **Star** をお願いします！  
+フィードバックや改善提案は **Issues** で受け付けています。
+
+
+
 💡 各リンクの意味
 - 記事リンク → 背景や作成手順を詳しく解説したブログ記事(WordPress)
 - ZIPファイル → Power Automateにインポートできるフロー本体（自分で記事を読みながらフローをつくってもOK）
@@ -107,6 +113,7 @@ Power Automateを使った業務改善のスキルを身につけられるハン
 👉 記事URLをここに追加  
 ★ **スクショ：ブログ記事のアイキャッチ画像（任意）**
 
+
 ---
 
 ## 🏷 タグ / Topics
@@ -120,7 +127,6 @@ MIT License
 
 ---
 
-## ✅ 次にやること / Next Steps
-- ✅ 他のサンプルフローを試す → #公開しているフロー一覧--flow-list
-- ✅ 詳しい解説記事を読む → #関連記事--related-blog-post
-- ✅ Power Automateの基本を学ぶ → https://learn.microsoft.com/ja-jp/power-automate/
+## 🔍 関連キーワード（SEO）
+`power-automate`, `workflow-automation`, `business-process-automation`, `low-code`, `rpa`, `microsoft-power-platform`
+
