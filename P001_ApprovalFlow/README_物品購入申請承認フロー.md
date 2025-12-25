@@ -93,8 +93,8 @@ Microsoft Formsで申請を受け取り、承認依頼を送信し、結果をTe
 ---
 
 ## 📌 関連リンク
-- **ブログ記事**：https://your-blog-url
-- **YouTube動画**：https://your-youtube-url
+- **ブログ記事**：[https://your-blog-url](https://www.automate136.com/purchase-approval-flow/)
+- **YouTube動画**：[https://your-youtube-url](https://youtu.be/y3QHSCIXEuw?si=9vt0T1qRwVoQFNBz)
 
 ---
 
