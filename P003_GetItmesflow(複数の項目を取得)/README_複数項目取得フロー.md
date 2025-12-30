@@ -56,3 +56,9 @@
    → 式に以下を入力：
    ```plaintext
    outputs('複数の項目の取得')?['body/value']
+
+
+   さらに詳しい解説はこちら
+👉 Power AutomateでSharePointリストを取得する完全ガイド（ブログ）
+
+https://www.automate136.com/sharepoint-json/
