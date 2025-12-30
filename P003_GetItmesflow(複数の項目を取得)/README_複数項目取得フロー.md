@@ -1,5 +1,5 @@
 
-# Power Automate サンプルフロー：SharePointリストの複数項目取得
+# Power Automate サンプルフロー：SharePointリストの複数項目取得（完全ガイド）
 
 📌 **このリポジトリについて**  
 このリポジトリでは、Power Automateを使って **SharePointリストから複数の項目を取得するフロー** を公開しています。  
@@ -26,24 +26,33 @@
 ---
 
 ## 📦 ダウンロード
-- フローZIP：https://github.com/isamu7pad-alt/powerautomate-flows/tree/main/P003_GetItmesflow(%E8%A4%87%E6%95%B0%E3%81%AE%E9%A0%85%E7%9B%AE%E3%82%92%E5%8F%96%E5%BE%97)
+- フローZIP：[GitHubリンク](https://github.com/isamu7pad-alt/powerautomate-flセス**  
+   → https://make.powerautomate.com
 
+2. **「ソリューション」または「マイフロー」から「インポート」を選択**
 
+3. **ZIPファイルをアップロード**  
+   → ダウンロードしたZIPを選択
+
+4. **接続情報を設定**  
+   - SharePoint接続を選択または新規作成
+   - 必要に応じて認証情報を入力
+
+5. **保存して完了**  
+   → インポート後、フローが「マイフロー」に表示されます
 
 ---
 
-## 🔧 インポート手順
-1. Power Automateポータルにアクセス
-2. 「ソリューション」または「マイフロー」から **インポート** を選択
-3. ZIPファイルをアップロード
-4. 接続情報（SharePoint）を設定
-5. 保存して完了！
+## 🛠 一から作成する場合（完全手順）
+1. **新しいフローを作成**  
+   → 「クラウドフロー」→「インスタントクラウドフロー」→「手動トリガー」
 
----
+2. **SharePointアクションを追加**  
+   → 「複数の項目の取得（Get items）」を選択  
+   - サイトアドレス：対象のSharePointサイト  
+   - リスト名：対象のリスト名
 
-## 🛠 一から作成する場合
-- 手動トリガーを追加
-- SharePoint「複数の項目の取得」アクションを設定
-- Composeに以下の式を設定：
-```plaintext
-outputs('複数の項目の取得')?['body/value']
+3. **Composeアクションを追加**  
+   → 式に以下を入力：
+   ```plaintext
+   outputs('複数の項目の取得')?['body/value']
