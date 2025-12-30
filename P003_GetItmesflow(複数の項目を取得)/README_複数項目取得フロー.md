@@ -26,8 +26,9 @@
 ---
 
 ## 📦 ダウンロード
-- フローZIP：`/flows/P002_GetItemsSample.zip`
-- サンプルExcel：`/samples/sample_contract.xlsx`
+- フローZIP：https://github.com/isamu7pad-alt/powerautomate-flows/tree/main/P003_GetItmesflow(%E8%A4%87%E6%95%B0%E3%81%AE%E9%A0%85%E7%9B%AE%E3%82%92%E5%8F%96%E5%BE%97)
+
+
 
 ---
 
