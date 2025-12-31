@@ -1,0 +1,53 @@
+REDME_Power Automate Contract Expiration Notification Flow
+
+📌 **About This Repository**  
+This repository provides a ready-to-use Power Automate flow that automatically sends an email notification when a contract is approaching its expiration date.  
+It’s designed as a hands-on template for workflow automation and business process improvement.  
+You can download the flow (.zip) and sample data from GitHub and import it into your environment immediately.
+
+---
+
+## ✅ What This Flow Does
+- Retrieves contract information from a SharePoint list
+- Calculates the current date and adds 7 days
+- Checks if the contract expiration date is within the next 7 days
+- Sends an email notification to the responsible person
+
+---
+
+## ✅ Key Actions You Will Learn
+- **Manual Trigger (Button)**  
+  → Learn how to start a flow manually.
+- **SharePoint: Get Items**  
+  → Retrieve multiple items from a SharePoint list.
+- **Compose**  
+  → Use expressions like `@utcNow()` and `@addDays()` to calculate dates.
+- **Apply to Each (For Each)**  
+  → Loop through multiple items.
+- **Condition**  
+  → Compare dates using `@lessOrEquals()`.
+- **Office 365: Send an Email (V2)**  
+  → Insert dynamic content into email subject and body.
+
+---
+
+## ✅ Flow Overview
+- **Trigger**: Manual (Button)
+- **Data Source**: SharePoint list (Contract Name, Expiration Date, Responsible Person)
+- **Logic**:
+  - Get current date
+  - Calculate date 7 days ahead
+  - Compare expiration date with the calculated date
+  - If true → send email notification
+- **Notification**: Office 365 email with contract details
+
+---
+
+## ✅ Download Links
+📦 `/flows/P003_SPO.zip`  
+📂 `/samples/sample_contract.xlsx`
+
+---
+
+## ✅ How to Import
+1. Go to Power Automate portal
