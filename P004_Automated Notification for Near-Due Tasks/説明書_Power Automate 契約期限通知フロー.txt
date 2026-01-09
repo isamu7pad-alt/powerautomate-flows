@@ -5,6 +5,10 @@
 業務改善やDX推進の第一歩として、誰でも簡単に試せるハンズオン用テンプレートです。  
 GitHubからフロー.zipとサンプルデータをダウンロードして、すぐにインポートできます。
 
+画像・動画付きのより詳細な説明はこちらのブログリンクも参考にしてください。
+
+https://www.automate136.com/contract-alert-flow/
+
 ---
 
 ## ✅ このフローでできること
@@ -43,9 +47,7 @@ GitHubからフロー.zipとサンプルデータをダウンロードして、�
 ---
 
 ## ✅ ダウンロードリンク
-📦 [flows/P003_SPO.zip](flows/P003_SPO.zip)  
-📂 [samples/sample_contract.xlsx](samples/sample_contract.xlsx)
-
+📦https://github.com/isamu7pad-alt/powerautomate-flows/blob/main/P004_Automated%20Notification%20for%20Near-Due%20Tasks/sample_Flow_P004_Automated%20Notification%20for%20Near-Due%20Tasks.zip
 ---
 
 ## ✅ インポート手順
